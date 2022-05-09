@@ -53,6 +53,6 @@ ab -c 50 -n 1000 -m POST -H 'Authorization: 1-1000' 'http://localhost:3000/api/o
 ```
 随机给订单付款或关闭
 ```bash
-ab -c 100 -n 1000 -m PUT -H 'Authorization: 1-1000' 'http://localhost:3000/api/orders/random_id'
+ab -c 50 -n 500 -m PUT -H 'Authorization: 1-1000' 'http://localhost:3000/api/orders/random_id'
 ```
 
